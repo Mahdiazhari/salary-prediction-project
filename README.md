@@ -53,7 +53,7 @@ Here is the summary of the numerical features in the data.
 
 The target variable is a numerical variable representing annual salary (in USD).
 
-![salary distribution](\images\distribution-salary.png)
+![salary distribution](/images/distribution-salary.png)
 
 From the distribution and boxplot above, we can see that salary is normally distributed. The boxplot also reveals some outliers.
 
@@ -61,11 +61,11 @@ From the distribution and boxplot above, we can see that salary is normally dist
 
 As revealed in the boxplot above, there are outliers in both sides.
 
-![outlier salaries](\images\salary-0.png)
+![outlier salaries](/images/salary-0.png)
 
 Further checks reveal that the outliers have a salary of 0, but the positions are not voluntary. Therefore it can be determined that they are outliers.
 
-![outlier salaries 2](\images\salary-high.png)
+![outlier salaries 2](/images/salary-high.png)
 
 These 16 juniors are from high value industries but with 20+ years of experience. Perhaps they are transitioning into new careers. We can determine that these values are also legitimate and not remove them from the training set.
 
@@ -73,7 +73,7 @@ Thus, the outliers to be removed are the 7 employees with 0 salaries.
 
 ### Summaries
 
-![summaries numerics](\images\numerics-summary.png)
+![summaries numerics](/images/numerics-summary.png)
 
 Here is a summary of the numeric variables in the cleaned dataset.
 
@@ -81,37 +81,37 @@ Here is a summary of the numeric variables in the cleaned dataset.
 
 #### Job Type
 
-![job type vs salary](\images\job-type-salary.png)
+![job type vs salary](/images/job-type-salary.png)
 
 It seems that as the job position increases, salary increases as well. (CEOs have the highest salaries, while janitors have the lowest).
 
 #### Degree
 
-![degree vs salary](\images\degree-salary.png)
+![degree vs salary](/images/degree-salary.png)
 
 More advanced degrees are associated with higher salaries.
 
 #### Major
 
-![major vs salary](\images\major-salary.png)
+![major vs salary](/images/major-salary.png)
 
 Employees with a major in Math, Business, and Engineering generally have higher salaries compared to the rest. Employees with no major have the lowest salaries.
 
 #### Industry
 
-![industry vs salary](\images\industry-salary.png)
+![industry vs salary](/images/industry-salary.png)
 
 The Web, Finance, and Oil Industries are the top 3 industries with the highest salaries.
 
 #### Years of Experience
 
-![years of experience vs salary](\images\years-salary.png)
+![years of experience vs salary](/images/years-salary.png)
 
 There is a clear association between years of experience and salary. The more years of experience, the higher the salary.
 
 #### Distance in Miles from Metropolis
 
-![distance vs salary](\images\distance-salary.png)
+![distance vs salary](/images/distance-salary.png)
 
 Salaries get smaller the further the employee is to the metropolis.
 
@@ -119,7 +119,7 @@ Salaries get smaller the further the employee is to the metropolis.
 
 Here is the correlation between features and the target variable:
 
-![corr numeric](\images\coor-numeric-salary.png)
+![corr numeric](/images/coor-numeric-salary.png)
 
 We can observe that there's a small positive correlation between years of experience and salary. There is no correlation between numerical features.
 
@@ -180,7 +180,7 @@ The best performing model is the Gradient Boosting Regressor with an average MSE
 
 ### Feature Importances
 
-![feature importances](\images\Feature-importances.png)
+![feature importances](/images/Feature-importances.png)
 
 We can see that for predicting salaries:
 
