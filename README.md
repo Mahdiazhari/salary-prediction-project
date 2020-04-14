@@ -45,7 +45,7 @@ Numerical:
 - yearsExperience
 - milesFromMetropolis
 
-![numerical summaries](\images\numerical.png)
+![numerical summaries](/images/numerical.png)
 
 Here is the summary of the numerical features in the data.
 
